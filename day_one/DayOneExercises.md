@@ -59,14 +59,27 @@ Exercise 11:
 A string is a palindrome if it is identical forward and backward. For example “anna”, “civic”, “level” and “hannah” are all examples of palindromic words. Write a program that reads a string from the user and uses a loop to determines whether or not it is a
 palindrome. Display the result, including a meaningful output message.
 
+Exercise 1. Avoiding Duplicates.
+Avoiding Duplicates In this exercise, you will create a program that reads words from the user until the user enters “quit”. After the user enters a blank line your program should dis- play each word entered by the user exactly once. The words should be displayed in the same order that they were entered. For example, if the user enters:
+      first 
+      second 
+      first
+      third 
+      second
+then your program should display:
+      first 
+      second 
+      third
 
 
+Exercise 2. Shuffling a Deck of Cards.
+A standard deck of playing cards contains 52 cards. Each card has one of four suits along with a value. The suits are normally spades, hearts, diamonds and clubs while the values are 2 through 10, Jack, Queen, King and Ace. Each playing card can be represented using two characters. The first character is the value of the card, with the values 2 through 9 being represented directly. The characters “T”, “J”, “Q”, “K” and “A” are used to represent the values 10, Jack, Queen, King and Ace respectively. The second character is used to represent the suit of the card. It is normally a lowercase letter: “s” for spades, “h” for hearts, “d” for diamonds and “c” for clubs. The following table provides several examples of cards and their two-character representations.
 
+      Card               Abbreviation
+      Jack of spades     Js
+      Two of clubs       2c
+      Ten of diamonds    Td
+      Ace of hearts      Ah 
+      Nine of spades     9s
 
-
-
-
-
-
-
-
+Write your code to take this list of cards and shuffle them. One technique that can be used to shuffle the cards is to visit each element in the list and swap it with another random element in the list; do this shuffle a random amount of times. You must write your own loop for shuffling the cards. You cannot make use of Python’s built-in shuffle function.
