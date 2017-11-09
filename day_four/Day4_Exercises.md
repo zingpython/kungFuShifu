@@ -12,6 +12,7 @@ In the same file as Exercise 2 create a function that takes a Binary value and c
 
 
 Exercise 4. 
+
 Create a class that represents a bucket
 
 	- For example, it can have three attributes:
