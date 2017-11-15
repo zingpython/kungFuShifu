@@ -26,3 +26,7 @@ This program should have a menu that has the following options:
 	5. Exit (This should end the program. Selecting any other option should return you to the menu.)
 
 Before you write any code use the Schema Designer to figure out what tables you need and what columns each table needs.
+
+Exercise 3:
+
+Using the web scrapping lecture notes as a base create a function that scrapes the S&P 500 Futures Settlements (http://www.cmegroup.com/trading/equity-index/us-index/e-mini-sandp500_quotes_settlements_futures.html) and prints out each row of the table in order.
