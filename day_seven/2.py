@@ -55,6 +55,14 @@ with open("employees.csv") as csvfile:
 		last_row = cursor.lastrowid
 		print(last_row)
 
+		#For each phone number in the row insert it into the phone number table
+		#Using last_row as the id of the User in the foreign key 
+		cursor.execute(""" INSERT INTO phone_number(phone,user_id) VALUES (?,?) """, (row[1],last_row ) )
+		cursor.execute(""" INSERT INTO phone_number(phone,user_id) VALUES (?,?) """, (row[2],last_row ) )
+		cursor.execute(""" INSERT INTO phone_number(phone,user_id) VALUES (?,?) """, (row[3],last_row ) )
+
+		#Save the phone numbers
+		connection.commit()	
 
 #Close connecction to database
 connection.close()
