@@ -30,3 +30,15 @@ Before you write any code use the Schema Designer to figure out what tables you 
 Exercise 3:
 
 Using the web scrapping lecture notes as a base create a function that scrapes the S&P 500 Futures Settlements (http://www.cmegroup.com/trading/equity-index/us-index/e-mini-sandp500_quotes_settlements_futures.html) and prints out each row of the table in order.
+
+Exercise 4:
+
+Using the MCV format take the traffic.txt file from day 3 and insert each line into the database. Then write a function that reads each line of the database and outputs the average times of each room as in day 3 exercise 4.
+
+Exercise 5:
+
+Using the MVC format write a game that mimics Hangman (images not needed). You should be able to enter a word/sentence and have other "players" begin guessing letters. On a correct guess all instances of that letter in the word/sentence should be revealed. On an incorrect guess the wrong letter is added to a tally of wrong guesses, the players only have 5 wrong guesses before a game over. This does not need a database but you should have a class that models the hangman game's variables including the word, incorrect letters, and correct letters.
+
+Exercise 6:
+
+Using your webscraping lecture notes write a program that takes in a word from a user and finds its definitions using dictionary.com. To search for a specific word use http://www.dictionary.com/browse/word. Remember, use inspect to find the right target, we want all of the definitions not just one.
